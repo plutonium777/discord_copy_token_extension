@@ -1,0 +1,19 @@
+{
+  "name": "Discord Copy Token",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "scripting", "clipboardWrite"
+  ],
+  "host_permissions": [
+    "https://discord.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Discord Copy Token",
+    "default_icon":"icon.png"
+  }
+}
